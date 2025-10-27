@@ -17,7 +17,7 @@ body {
   /* justify-content:center; */
   flex-wrap: wrap;
   /* background-color: gray; */
-  background-image: url(/background.jpg);
+  background-image: url(background.jpg);
   background-size:contain; /* Scales the image to cover the entire div */
   /* background-position: center; Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -54,7 +54,7 @@ body {
 }
 
 #roll-dice {
-    background-image: url(/dice.jpg);
+    background-image: url(dice.jpg);
     background-size: cover;
     height: 60px;
     width: 60px;
@@ -110,3 +110,4 @@ body {
   border: 2px solid black;
   background-color: yellow;
 }
+
