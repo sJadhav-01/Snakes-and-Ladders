@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(88, 81, 81);
+  height: 100vh;
+}
+
+#sheet {
+  height: 100vh;
+  width: 45%;
+  display: inline;
+  /* justify-content:center; */
+  flex-wrap: wrap;
+  /* background-color: gray; */
+  background-image: url(/background.jpg);
+  background-size:contain; /* Scales the image to cover the entire div */
+  /* background-position: center; Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.row {
+  height: 10%;
+  width: 100%;
+  color: black;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  width: 100%;
+  padding: 1px;
+  margin: 1px;
+  /* border: 1px solid greenyellow; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.controls {
+  height: 100vh;
+  width: 40%;
+  display: inline;
+}
+
+.dice-card {
+  height: 50vh;
+  width: 100%;
+  background-color: blueviolet;
+}
+
+#roll-dice {
+    background-image: url(/dice.jpg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+}
+
+.players-info-card {
+  height: 50vh;
+  width: 100%;
+  background-color: brown;
+  display: inline;
+  align-items: center;
+}
+
+.player-info {
+  height: 9vh;
+  width: 100%;
+  border: 2px solid black;
+}
+
+#player-1-info {
+  background-color: red;
+}
+#player-2-info {
+  background-color: blue;
+}
+#player-3-info {
+  background-color: green;
+}
+#player-4-info {
+  background-color: yellow;
+}
+
+.player {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+#player-1 {
+  border: 2px solid black;
+  background-color: red;
+}
+#player-2 {
+  border: 2px solid black;
+  background-color: blue;
+}
+#player-3 {
+  border: 2px solid black;
+  background-color: green;
+}
+#player-4 {
+  border: 2px solid black;
+  background-color: yellow;
+}
